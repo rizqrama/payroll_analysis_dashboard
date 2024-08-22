@@ -1,0 +1,1 @@
+select * from fact.employee_monthly_aggregate;

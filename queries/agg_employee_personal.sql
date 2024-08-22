@@ -1,0 +1,1 @@
+select * from payroll.agg_employee_personal
