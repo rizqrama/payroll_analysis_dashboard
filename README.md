@@ -1,4 +1,6 @@
-# Evidence Template Project
+# Payroll Analysis Dashboard Project
+
+This analysis is using Evidence.dev to create data visualization dashboard. TL;DR, Evidence.dev is a BI Tools-as-a-code based on markdown text. Here's how you install and start with Evidence.
 
 ## Using Codespaces
 
