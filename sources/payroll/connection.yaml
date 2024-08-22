@@ -1,8 +1,0 @@
-# This file was automatically generated
-name: payroll
-type: postgres
-options:
-  host: localhost
-  port: 5432
-  database: payroll_analysis
-  schema: fact

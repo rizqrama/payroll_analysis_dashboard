@@ -1,1 +1,0 @@
-select * from fact.branch_monthly_aggregate;

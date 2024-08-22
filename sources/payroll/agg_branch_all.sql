@@ -1,1 +1,0 @@
-select * from fact.branch_all_aggregate

@@ -1,1 +1,0 @@
-select * from fact.employee_personal_agg
