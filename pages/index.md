@@ -7,6 +7,7 @@ queries:
   - agg_branch_all: agg_branch_all.sql
   - agg_employee_all: agg_employee_all.sql
   - agg_employee_personal: agg_employee_personal.sql
+  - agg_branch_pivot: agg_branch_pivot.sql
 sources:
   - agg_branch_monthly: payroll/agg_branch_monthly.sql
   - agg_employee_all: payroll/agg_employee_personal.sql
@@ -127,6 +128,14 @@ limit 5
 </Grid>
 </center>
 
+<BarChart
+  data={agg_branch_pivot}
+  x=branch_name
+  y=hourly_salary
+  series=salary_type
+  type=stacked100
+  sort=false
+/>
 ### Employee Analysis
 
 <center>
