@@ -56,6 +56,12 @@ This report shows the overview of payroll scheme for our company.
     title="Average Salary per Hour"
   />
   
+From the charts above we can have some insights such as:
+
+  1. Both charts show a period of stability during 2020. While work hours remained stable around 8 hours per day, the average salary per hour remained very low, indicating that the cost per hour of work was kept consistently low.
+  2. At the end of 2020, there’s a slight increase in average daily work hours, and a more pronounced spike in average salary per hour. This could indicate a late-year adjustment, possibly due to end-of-year bonuses, overtime, or adjustments in payroll practices.
+  3. The significant drop in the average salary per hour right after the initial period will be worth investigating. One hypotheses is that there are several peoples who worked far from the minimum required working hours that still got paid
+
 
 </Details>
 
@@ -155,4 +161,12 @@ limit 5
 />
 </center>
 
+<Details title="What is Working Hours Ratio?">
+
+Working hours ratio can be defined as how much the actual working hours done by employees compared to *ideal* working hours. The *ideal working hours* itself derived from the standard of average working days during the employees' working period. This metric is taken to measure employees compliance and actual productivity. From the *scatter plot* above we can see that:
+
+  1. Majority compliance: Majority of employees are located around 1.00, means that their working hours are as expected
+  2. Extreme Outlierss: There is an employee that is almost not working at all, stated by working hours ratio is around 0.06 eventhough having the highest average hourly salary. This finding should be investigated further to find the possible causation of this anomaly.
+
+</Details>
 
